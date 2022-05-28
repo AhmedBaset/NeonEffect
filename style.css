@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: inherit;
+}
+body {
+	padding: 2em;
+	background-color: #16181f;
+	min-height: 100vh;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1.5em;
+}
+a {
+	font-size: 3em;
+	text-decoration: none;
+	opacity: 0.7;
+	transition: 0.1s;
+}
+a:hover {
+	opacity: 1;
+	text-shadow: 0 0 20px #0df;
+}
